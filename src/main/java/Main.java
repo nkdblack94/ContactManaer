@@ -81,10 +81,9 @@ public class Main {
                     break;
                 case 8:
                     contactManager.readFile(path);
-
-
+                    break;
             }
-        } while (choose != 8);
+        } while (choose != 9);
     }
 
     public static void showContactsList(ContactManager contactManager) {
